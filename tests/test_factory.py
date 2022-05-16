@@ -1,4 +1,4 @@
-from pytest import mark, fixture, raises
+from pytest import mark, fixture
 
 from creational.factory import MessageFactory
 
