@@ -45,16 +45,14 @@ class Composite(CompositeInterface):
         return True
 
     def get_subcomposites(self):
-        print(self.name)
-        for child in self._children:
-            print("\t", end="")
-            print(child.name)
-            child.get_subcomposites()
+        return self._children
+
+    def __str__(self):
+        return f"{self.__class__.__name__} of {self.name}"
 
 
 if __name__ == "__main__":
 
-    # ...as well as the complex composites.
     root = Composite("root")
 
     square = Composite("square")
@@ -63,13 +61,13 @@ if __name__ == "__main__":
     star = Composite("star")
 
     triangle.add_element(circle)
+
     square.add_element(star)
     square.add_element(triangle)
 
     root.add_element(square)
 
-    square.remove_element(triangle)
+    # square.remove_element(triangle)
     root.get_subcomposites()
 
-    print("*******")
     triangle.get_subcomposites()
