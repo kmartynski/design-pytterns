@@ -24,7 +24,9 @@ class FlyweightFactory:
 
 
 if __name__ == '__main__':
-    product_data = (('Banana', 'Fruit'), ('Snickers', 'Sweet'), ('Chips', 'Sweet'), ('Apple', 'Fruit'), ("Tomato", "Veggie"))
+    product_data = (
+        ('Banana', 'Fruit'), ('Snickers', 'Sweet'), ('Chips', 'Sweet'), ('Apple', 'Fruit'), ("Tomato", "Veggie")
+    )
     list_of_products = []
 
     for i in product_data:
@@ -34,10 +36,3 @@ if __name__ == '__main__':
 
     print(list_of_products)
     print(set(list_of_products))
-
-    assert list_of_products != set(list_of_products)
-
-    for j in list_of_products:
-        print(j)
-        print(" id = " + str(id(j)))
-        print(j.get_product_data())
