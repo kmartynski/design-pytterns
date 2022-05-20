@@ -30,7 +30,7 @@ class MoonMission(Mission):
 
 class MissionDispatcher:
 
-    def __init__(self, astronaut_name, mission_strategy: Mission):
+    def __init__(self, astronaut_name: str, mission_strategy: Mission):
         self.astronaut_name = astronaut_name
         self.mission_strategy = mission_strategy
 

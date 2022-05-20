@@ -29,15 +29,15 @@ class CompositeInterface(ABC):
 
 class Composite(CompositeInterface):
 
-    def __init__(self, name) -> None:
+    def __init__(self, name: str) -> None:
         self.name = name
         self._children: List[CompositeInterface] = []
 
-    def add_element(self, component) -> None:
+    def add_element(self, component: CompositeInterface) -> None:
         self._children.append(component)
         component.parent = self
 
-    def remove_element(self, component) -> None:
+    def remove_element(self, component: CompositeInterface) -> None:
         self._children.remove(component)
         component.parent = None
 

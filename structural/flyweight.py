@@ -7,7 +7,7 @@ class Product:
 class FlyweightFactory:
     flyweight_products = {}
 
-    def __new__(cls, name, product_type):
+    def __new__(cls, name: str, product_type: str):
         try:
             product_id = cls.flyweight_products[product_type]
         except KeyError:
@@ -15,7 +15,7 @@ class FlyweightFactory:
             cls.flyweight_products[product_type] = product_id
         return product_id
 
-    def set_product_data(self, product_info):
+    def set_product_data(self, product_info: str):
         product_instance = Product()
         self.product_data = product_instance.products(product_info)
 

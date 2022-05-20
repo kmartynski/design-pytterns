@@ -24,7 +24,7 @@ class UserDataFacade:
         self.handler = UserDataHandler()
         self.storage = UserDataStorage()
 
-    def process_user_data(self, user_data):
+    def process_user_data(self, user_data: dict):
         self.receiver.retrieve(user_data)
         self.handler.unpack_user_data(user_data)
         self.storage.save_user_data(user_data)

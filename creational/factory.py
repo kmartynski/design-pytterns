@@ -31,7 +31,7 @@ class MessageGenerator:
 
 
 class MessageFactory:
-    def __new__(cls, message_name, *args, **kwargs):
+    def __new__(cls, message_name, *args, **kwargs) -> dict:
         return MessageGenerator(message_name=message_name).create_message()
 
 
