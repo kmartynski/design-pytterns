@@ -26,6 +26,6 @@ class TestComposite:
         square.add_element(triangle)
 
         root.add_element(square)
-        assert len(root.get_subcomposites()) == 1
+        assert len(root.get_subcomposites()) == 2
         assert len(triangle.get_subcomposites()) == 1
         assert len(square.get_subcomposites()) == 2

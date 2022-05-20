@@ -90,7 +90,7 @@ fabric.properties
 # .idea/misc.xml
 # *.ipr
 .DS_Store
-
+__pycache__
 # Sonarlint plugin
 # https://plugins.jetbrains.com/plugin/7973-sonarlint
 .idea/**/sonarlint/
