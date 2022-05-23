@@ -37,7 +37,7 @@ class TestChainOfResponsibility:
         is_store_open_handler.set_successor(maintenance_handler).set_successor(error_code_handler)
 
         with raises(Exception):
-            print(is_store_open_handler.handle(store_status))
+            is_store_open_handler.handle(store_status)
 
 
     @mark.parametrize(

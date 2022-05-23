@@ -2,6 +2,7 @@ from pytest import fixture, mark
 
 from behavioral.template_method import CreditCardProcessor, VirtualCreditCardProcessor
 
+
 @fixture
 def master_card_mock():
     credit_card = "Master Card"
