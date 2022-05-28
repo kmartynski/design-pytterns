@@ -14,10 +14,12 @@ The list below is consequently build up.
   - flyweight
 
 - creational
+  - builder
   - factory
   - singleton
 
 - behavioral
   - chain of responsibility
+  - mediator
   - strategy
   - template method
