@@ -9,11 +9,15 @@ The list below is consequently build up.
 
 - structural
   - adapter
+  - bridge
   - composite
+  - decorator
   - facade
   - flyweight
+  - proxy
 
 - creational
+  - abstract factory
   - builder
   - factory
   - singleton
