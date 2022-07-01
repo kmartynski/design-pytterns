@@ -20,6 +20,7 @@ The list below is consequently build up.
   - abstract factory
   - builder
   - factory
+  - prototype
   - singleton
 
 - behavioral
