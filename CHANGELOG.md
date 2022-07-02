@@ -19,6 +19,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 - Abstract Factory pattern
 - Prototype pattern
+- Mementor pattern
 
 
 ## [2022-06-26]
