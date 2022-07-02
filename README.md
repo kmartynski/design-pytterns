@@ -26,6 +26,7 @@ The list below is consequently build up.
 - behavioral
   - chain of responsibility
   - command
+  - iterator
   - mediator
   - strategy
   - template method
