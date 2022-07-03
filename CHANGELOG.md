@@ -11,6 +11,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 - Observer pattern
 - State pattern
+- Visitor pattern
 
 
 ## [2022-07-02]

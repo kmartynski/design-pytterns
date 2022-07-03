@@ -33,3 +33,4 @@ The list below is consequently build up.
   - state
   - strategy
   - template method
+  - visitor
