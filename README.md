@@ -30,5 +30,6 @@ The list below is consequently build up.
   - mediator
   - memento
   - observer
+  - state
   - strategy
   - template method
