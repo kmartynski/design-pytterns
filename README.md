@@ -29,5 +29,6 @@ The list below is consequently build up.
   - iterator
   - mediator
   - memento
+  - observer
   - strategy
   - template method
